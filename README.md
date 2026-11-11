@@ -76,6 +76,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [equilateral-agents](https://github.com/Equilateral-AI/equilateral-agents-open-core) - 22 self-learning agents with memory, security review, code quality, deployment validation, and infrastructure checks
 - [lyra](./plugins/lyra)
 - [magebyte-power](https://github.com/MageByte-Zero/magebyte-power) — Production-incident-distilled Claude Code skill: 7-phase workflow with 4-round AI cross-verification that catches concurrency & idempotency bugs before prod
+- [memgit](https://github.com/code4161/claude-plugins/tree/main/plugins/memgit) - One versioned memory for Claude Code, Cursor and Codex. Imports Claude Code's own memory, brings it in at session start through hooks, keeps every change as a checkpoint with diff and rollback, and optionally syncs it end-to-end encrypted across machines. Install: /plugin marketplace add code4161/claude-plugins, then /plugin install memgit@memgit.
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [now-next-methodology](https://github.com/soutone/now-next-methodology) - Two-file task management system for Claude Code/OpenCode: NOW.md tracks current work, NEXT.md queues future tasks with /next command
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
